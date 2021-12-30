@@ -26,7 +26,7 @@ Below you will find an example of how you can use this action.
 ```yaml
 uses: iu-actions/workbook-bibliography@v1
 with:
-  # workbook details
+  # content details
   bibliography: exam/bibliography.md
           
   # configuration details
