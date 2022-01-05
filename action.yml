@@ -16,6 +16,7 @@ runs:
   using: "composite"
   steps:
     - name: List Directory
+      shell: bash
       run: ls -R
     - name: Create Bibliography
       uses: docker://pandoc/core:2.9
