@@ -15,8 +15,6 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Checkout
-      uses: actions/checkout@v2
     - name: Create Bibliography
       uses: docker://pandoc/core:2.9
       with:
